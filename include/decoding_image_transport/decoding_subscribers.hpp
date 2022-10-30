@@ -169,6 +169,9 @@ private:
 typedef DecodingSubscriber< AV_CODEC_ID_H264, boost::mpl::string< 'h', '2', '6', '4' > >
     H264Subscriber;
 
+typedef DecodingSubscriber< AV_CODEC_ID_H265, boost::mpl::string< 'h', '2', '6', '5' > >
+    H265Subscriber;
+
 } // namespace decoding_image_transport
 
 #endif
